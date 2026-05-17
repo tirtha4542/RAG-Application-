@@ -1,0 +1,14 @@
+# Local environment variables (API Keys)
+.env
+
+# Chroma Database files (Heavy binary data)
+chroma_db/
+
+# Temporary uploaded files
+temp_*
+
+# Python caching folders
+__pycache__/
+.venv/
+venv/
+.env/
