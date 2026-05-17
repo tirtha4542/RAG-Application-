@@ -113,13 +113,3 @@ streamlit run app.py
 
 Distributed under the MIT License. See `LICENSE` for more information.
 """
-
-# Write the file to the workspace
-
-file_path = "README.md"
-with open(file_path, "w", encoding="utf-8") as f:
-f.write(readme_content)
-
-print(f"File successfully created: {file_path}")
-
-```
